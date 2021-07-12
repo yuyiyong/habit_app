@@ -1,6 +1,6 @@
 /*
  * @LastEditors:  
- * @LastEditTime: 2021-07-05 10:01:22
+ * @LastEditTime: 2021-07-09 10:52:38
  * @FilePath: /habit_app/lib/views/app_layout.dart
  */
 /* import 'package:flutter/cupertino.dart';
@@ -79,7 +79,8 @@ class _AppLayoutState extends State<AppLayout> {
         counter: _counter,
       ), */
       NotesScreen(),
-      WorkScreen()
+      WorkScreen(),
+      
     ];
     /* List<Widget> titleList = [
       Text("昆仑量化"),

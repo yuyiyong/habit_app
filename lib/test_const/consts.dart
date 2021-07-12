@@ -1,12 +1,12 @@
 /*
  * @LastEditors:  
- * @LastEditTime: 2021-07-07 14:55:51
+ * @LastEditTime: 2021-07-08 12:07:02
  * @FilePath: /habit_app/lib/test_const/consts.dart
  */
 import 'package:flutter/material.dart';
 
 class Consts{
-  static List<Habit> habitList = [
+  static final List<Habit> habitList = [
      new Habit(Colors.blue, "content1", "http://yanxuan.nosdn.127.net/65091eebc48899298171c2eb6696fe27.jpg",8),
      new Habit(Colors.yellow, "content2", "http://yanxuan.nosdn.127.net/8b30eeb17c831eba08b97bdcb4c46a8e.png",3),
      new Habit(Colors.green, "content3", "http://yanxuan.nosdn.127.net/a196b367f23ccfd8205b6da647c62b84.png",3.5),
